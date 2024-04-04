@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dc4-iA-sow">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DAPI_Activdad_8_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YlJ-Sn-w7s">
+                                <rect key="frame" x="20" y="347" width="353" height="160"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: Marcelo Gonzalez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bb-BD-iV9">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Career: IDS (Software Engineering)" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHA-ZW-AGF">
+                                        <rect key="frame" x="0.0" y="50" width="353" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID: AL03011761" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0d-XK-Z53">
+                                        <rect key="frame" x="0.0" y="130" width="353" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YlJ-Sn-w7s" secondAttribute="trailing" constant="20" id="D5M-xi-74r"/>
+                            <constraint firstItem="YlJ-Sn-w7s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JjF-Vf-CT4"/>
+                            <constraint firstItem="YlJ-Sn-w7s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="1" id="r92-aw-lm4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="person.fill" catalog="system" id="8l5-03-Ybl">
+                        <color key="badgeColor" name="AccentColor"/>
+                        <imageReference key="selectedImage" image="person.fill" catalog="system" symbolScale="large" renderingMode="template"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="ZOW-g1-xnw">
+            <objects>
+                <viewController id="fev-ze-WQx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OH5-Vd-9DJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm not gonna put personal information here but my brother is also a software engineer and he is pretty cool!" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Cc-yo-wg7">
+                                <rect key="frame" x="20" y="367.33333333333331" width="353" height="119.66666666666669"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2l8-7n-rBr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4Cc-yo-wg7" firstAttribute="centerY" secondItem="OH5-Vd-9DJ" secondAttribute="centerY" constant="1" id="6zW-DK-IlL"/>
+                            <constraint firstItem="4Cc-yo-wg7" firstAttribute="leading" secondItem="OH5-Vd-9DJ" secondAttribute="leading" constant="20" id="V52-iu-pwV"/>
+                            <constraint firstAttribute="trailing" secondItem="4Cc-yo-wg7" secondAttribute="trailing" constant="20" id="xQK-t7-PJx"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="figure.2.and.child.holdinghands" catalog="system" id="hIB-QZ-LJq">
+                        <color key="badgeColor" name="AccentColor"/>
+                        <imageReference key="selectedImage" image="figure.2.and.child.holdinghands" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QbC-s0-cyL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1912.2137404580151" y="-3.5211267605633805"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="QFE-Yr-im6">
+            <objects>
+                <viewController id="03p-aD-rXF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ek-sG-Bqz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="eKx-R4-bEV">
+                                <rect key="frame" x="8" y="116.33333333333331" width="377" height="621.66666666666674"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Videogames are my primary hobby! But I also play guitar, and I started reading recently." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiX-aP-FKo">
+                                        <rect key="frame" x="0.0" y="0.0" width="377" height="89.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="B3-DI816_GAMEJO_P_20190306133137" translatesAutoresizingMaskIntoConstraints="NO" id="Dy5-sp-qZ8">
+                                        <rect key="frame" x="0.0" y="122.66666666666669" width="377" height="499.00000000000006"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wYJ-Vi-u18"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eKx-R4-bEV" secondAttribute="trailing" constant="8" id="BkF-mQ-Cjr"/>
+                            <constraint firstItem="eKx-R4-bEV" firstAttribute="leading" secondItem="3ek-sG-Bqz" secondAttribute="leading" constant="8" id="HOc-7S-h6N"/>
+                            <constraint firstItem="eKx-R4-bEV" firstAttribute="centerY" secondItem="3ek-sG-Bqz" secondAttribute="centerY" constant="1" id="f66-3L-lo6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="gamecontroller.fill" catalog="system" id="Fj7-yE-Oiu">
+                        <color key="badgeColor" name="AccentColor"/>
+                        <imageReference key="selectedImage" image="gamecontroller.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaV-kx-WDu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2794.6564885496182" y="10.563380281690142"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Say-lA-l7d">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Dc4-iA-sow" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZaG-jY-n5e">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ffa-Mr-FOF"/>
+                        <segue destination="fev-ze-WQx" kind="relationship" relationship="viewControllers" id="Jan-n1-YOd"/>
+                        <segue destination="03p-aD-rXF" kind="relationship" relationship="viewControllers" id="oDb-DX-T2E"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p65-Hi-bOW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="B3-DI816_GAMEJO_P_20190306133137" width="749" height="499"/>
+        <image name="figure.2.and.child.holdinghands" catalog="system" width="128" height="90"/>
+        <image name="gamecontroller.fill" catalog="system" width="128" height="79"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
